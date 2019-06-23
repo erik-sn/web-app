@@ -1,0 +1,42 @@
+{
+  "name": "pubscience",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "next build",
+    "server": "node server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "express": "^4.17.1",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0",
+    "jest-css-modules": "^2.1.0",
+    "prettier": "^1.18.2",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.8.6"
+  }
+}

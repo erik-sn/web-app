@@ -1,0 +1,92 @@
+@import '../../styles/color.scss';
+@import '../../styles/breakpoints.scss';
+
+.nav__large {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+
+  @include sm {
+    display: flex !important;
+  }
+
+  .logo__icon {
+    height: 60px;
+    margin: 30px 15px 20px 25px;
+    flex: 0 0 150px;
+  }
+
+  .search {
+    margin: 0px 8px 0px 35px;
+    flex: 1 1 400px;
+    max-width: 400px;
+  }
+}
+
+.nav__large__left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.nav__mobile {
+  @include sm {
+    display: none !important;
+  }
+}
+
+.nav {
+  color: $secondary;
+  width: 100%;
+  flex-flow: row wrap;
+  align-items: center;
+  min-height: 45px;
+}
+
+.logo {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.logo__right {
+  justify-content: flex-end !important;
+}
+
+.search {
+  margin: 0px 8px 0px 3px;
+
+  input {
+    width: 100%;
+    font-size: 13px;
+  }
+}
+
+.logo__icon {
+  margin: 5px 10px;
+  height: 35px;
+}
+
+.user {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  color: $secondary;
+}
+
+.user__right {
+  padding: 15px 0px;
+}
+
+.apps {
+  margin: 0px 15px 0px 10px;
+  width: 30px;
+}
+
+.auth {
+  font-weight: bold;
+}

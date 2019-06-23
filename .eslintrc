@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true,
+    "jest": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "arrow-parens": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0,
+    "react/jsx-uses-vars": [2],
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-console": 0
+  }
+}
